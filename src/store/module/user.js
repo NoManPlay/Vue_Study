@@ -2,7 +2,7 @@
  * @Author: qtx
  * @Date: 2020-03-05 13:53:48
  * @LastEditors: qtx
- * @LastEditTime: 2020-03-09 18:11:12
+ * @LastEditTime: 2020-03-09 20:58:32
  * @Description:
  */
 const state = {
@@ -16,7 +16,9 @@ const getters = {
 };
 
 const mutations = {
-  //
+  SET_USER_NAME(state, params) {
+    state.userName = params;
+  }
 };
 
 const actions = {
