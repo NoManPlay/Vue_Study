@@ -2,7 +2,7 @@
  * @Author: qtx
  * @Date: 2020-03-05 12:09:44
  * @LastEditors: qtx
- * @LastEditTime: 2020-03-09 17:13:24
+ * @LastEditTime: 2020-03-09 20:57:48
  * @Description:
  */
 const path = require("path");
@@ -21,7 +21,7 @@ module.exports = {
   },
   //打包不生成.map
   productionSourceMap: false,
-  devServer: {
-    proxy: "http://localhost:4000"
-  }
+  // devServer: {
+  //   proxy: "http://localhost:4000"
+  // }
 };
